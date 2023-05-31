@@ -15,10 +15,10 @@ Add command execution process to clone Laravel project from GitHub to Xampp dire
 ### How to Run the composer Command Code
 
 - [Clone] git clone gitURL 
-- [Enter project directory] cd laravel starter
-- cp .env.example <code>.env</code>
-- open .env and update DB_DATABASE
-- run: composer install
-- run: php artisan key:generate
-- run: php artisan miigrate:fresh --seed
+- [Enter project directory] <code> cd project-folder </code>
+-  <code> cp .env.example </code> &nbps; <code> .env </code>
+- open: .env and update DB_DATABASE
+- run: <code> composer install </code>
+- run: <code> php artisan key:generate </code>
+- run: <code> php artisan miigrate:fresh --seed </code>
 - run: <code> php artisan serve </code>
