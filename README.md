@@ -20,5 +20,5 @@ Add command execution process to clone Laravel project from GitHub to Xampp dire
 - open: .env and update DB_DATABASE
 - run: <code> composer install </code>
 - run: <code> php artisan key:generate </code>
-- run: <code> php artisan miigrate:fresh --seed </code>
+- run: <code> php artisan migrate:fresh --seed </code>
 - run: <code> php artisan serve </code>
