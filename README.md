@@ -26,3 +26,50 @@ Add command execution process to clone Laravel project from GitHub to Xampp dire
 Here is the graphical representation of commands running.
 ![image](https://github.com/prolinkz/githubtoxampp/assets/45316278/8d6b20a0-e8b4-4169-9e15-ec44db776638)
 
+
+
+
+
+## ReInstall the Composer if it NOT WORK's 
+
+```
+composer reinstall
+```
+
+<p>  </p>
+
+```
+composer update
+```
+
+<p>  </p>
+
+```
+php artisan cache:clear
+```
+
+```
+php artisan config:clear
+```
+
+<p>  </p>
+
+
+```
+composer dump-autoload
+```
+
+<p>  </p>
+
+```
+php artisan optimize
+```
+<p>  </p>
+
+```
+php artisan key:generate
+```
+
+<p>  </p>
+
+- run: <code> php artisan serve </code>
