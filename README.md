@@ -22,3 +22,7 @@ Add command execution process to clone Laravel project from GitHub to Xampp dire
 - run: <code> php artisan key:generate </code>
 - run: <code> php artisan migrate:fresh --seed </code>  <a href="https://laravel.com/docs/10.x/migrations" alt="migration commands">migration commands </a>
 - run: <code> php artisan serve </code>
+
+Here is the graphical representation of commands running.
+![image](https://github.com/prolinkz/githubtoxampp/assets/45316278/8d6b20a0-e8b4-4169-9e15-ec44db776638)
+
